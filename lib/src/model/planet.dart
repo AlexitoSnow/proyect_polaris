@@ -1,3 +1,5 @@
+import '../constants.dart';
+
 class Planet {
   final String name;
   final String characteristics;
@@ -21,7 +23,21 @@ class Planet {
 
 class TourismPlace {
   final String name;
+  final List<Place> places;
+
+  TourismPlace({required this.name, required this.places});
+}
+
+class Place {
+  final String name;
+  final String information;
+  final String imageName;
+  String pathImage = pathPlanetImages;
   final List<String> activities;
 
-  TourismPlace({required this.name, required this.activities});
+  Place(
+      {required this.name,
+      required this.information,
+      required this.activities,
+      required this.imageName}) {}
 }
