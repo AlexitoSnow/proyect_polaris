@@ -5,6 +5,7 @@ import '../model/planet.dart';
 import 'destinations_view.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import '../constants.dart';
+import 'location_view.dart';
 import 'planet_tourism_view.dart';
 
 class PlanetView extends StatelessWidget {
@@ -93,7 +94,9 @@ class PlanetView extends StatelessWidget {
                   borderRadius: BorderRadius.all(Radius.circular(20)),
                 ),
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, LocationPage.routeName);
+              },
               child: const SizedBox(
                 width: 120,
                 child: Row(

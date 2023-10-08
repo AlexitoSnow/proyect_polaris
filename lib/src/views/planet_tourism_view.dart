@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:proyect_polaris/src/constants.dart';
+import 'package:proyect_polaris/src/views/location_view.dart';
 import 'dart:convert';
 import '../model/planet.dart';
 import 'destinations_view.dart';
@@ -57,7 +58,9 @@ class _PlanetTourismViewState extends State<PlanetTourismView> {
             borderRadius: BorderRadius.all(Radius.circular(20)),
           ),
         ),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pushNamed(context, LocationPage.routeName);
+        },
         child: const SizedBox(
           width: 120,
           child: Row(
@@ -142,8 +145,6 @@ class _PlanetTourismViewState extends State<PlanetTourismView> {
                       ),
                       onPressed: () {
                         setState(() {
-                          print('en el boton');
-                          print(marsPlaces.places[placeIndex].pathImage);
                           marsPlaces.places.length - 1 > placeIndex
                               ? placeIndex++
                               : placeIndex = 0;
@@ -155,7 +156,7 @@ class _PlanetTourismViewState extends State<PlanetTourismView> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              'Seguir Explorando!',
+                              'Continue exploring!',
                               style: TextStyle(fontSize: 14),
                             ),
                             Icon(
