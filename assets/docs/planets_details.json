@@ -1,0 +1,62 @@
+[
+    {
+        "Name": "Sun",
+        "Characteristics": "It is in the center of the solar system, It has a temperature of 15,000,000°C",
+        "Structure": "It is 109 times wider than the Earth, It has a diameter of 1,392,000 km, It is a medium-sized star, there are much larger stars.",
+        "Clothing": ""
+    },
+    {
+        "Name": "Mercury",
+        "Characteristics": " It does not have a Moon, It is the closest to the sun but it is not the warmest planet, Its temperature ranges between –180 °C and +430 °C.",
+        "Structure": "It is a rocky planet, It is the smallest in the solar system, It has a solid surface that is covered in craters",
+        "Clothing": ""
+    },
+    {
+        "Name": "Venus",
+        "Characteristics": "It is the hottest planet in the solar system, It can reach temperatures of up to 453°C, It doesn't have a moon, Its atmosphere is too thick to the point that if we were to see the sun from the surface, only a spot of light is observed.",
+        "Structure": "Similar size to Earth, It is rocky, it has volcanoes, It rotates in the opposite direction to the Earth.",
+        "Clothing": ""
+    },
+    {
+        "Name": "Earth",
+        "Characteristics": "It is the only planet that has a Moon, Its atmosphere is composed of Nitrogen and Oxygen, which allows us to breathe, Small and rocky",
+        "Structure": "It has mountains, valleys, plains, etc., Water represents 70% of its surface, It has an area of 510 million km^2",
+        "Clothing": ""
+    },
+    {
+        "Name": "Mars",
+        "Characteristics": "It is the fourth planet from the Sun, It has two small moons: Phobos and Deimos, Also called the Earth's twin, its day lasts 24.6 hours, Its average temperature is -62°C",
+        "Structure": "It is a dusty, cold, desert world with a very thin atmosphere, It has a dense core composed of iron, nickel, and sulfur, Mars is home to the largest volcano in the solar system, Olympus Mons.",
+        "Clothing": "Suits with dust resistance, that have protection against radiation and thermal insulation. "
+    },
+    {
+        "Name": "Jupiter",
+        "Characteristics": "",
+        "Structure": "",
+        "Clothing": ""
+    },
+    {
+        "Name": "Saturn",
+        "Characteristics": "",
+        "Structure": "",
+        "Clothing": ""
+    },
+    {
+        "Name": "Uranus",
+        "Characteristics": "",
+        "Structure": "",
+        "Clothing": ""
+    },
+    {
+        "Name": "Neptune",
+        "Characteristics": "",
+        "Structure": "",
+        "Clothing": ""
+    },
+    {
+        "Name": "Pluto",
+        "Characteristics": "",
+        "Structure": "",
+        "Clothing": ""
+    }
+]

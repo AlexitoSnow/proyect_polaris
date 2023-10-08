@@ -18,8 +18,14 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: 0.13.1
+  flutter_native_splash: ^2.3.3
 
   flutter_lints: ^2.0.0
+flutter_icons:
+  android: "launcher_icon"
+  image_path: "assets/images/rounded_logo.png"
+  adaptive_icon_background: "assets/images/rounded_logo.png"
 
 flutter:
   uses-material-design: true
@@ -28,9 +34,21 @@ flutter:
   generate: true
 
   assets:
-    # Add assets from the images directory to the application.
+    # Image Assets
     - assets/images/
     - assets/images/planets/mars/
     - assets/images/planets/
     - assets/images/onlyplanets/
-    
+
+    # Docs Assets
+    - assets/docs/
+  
+#Splash Native
+flutter_native_splash:
+  color: "#ffffff"
+  image: "assets/images/rounded_logo.png"
+
+  android_12:
+    image: "assets/images/rounded_logo.png"
+    color: "#ffffff"
+
