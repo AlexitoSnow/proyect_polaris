@@ -31,30 +31,24 @@
     },
     {
         "Name": "Jupiter",
-        "Characteristics": "",
-        "Structure": "",
+        "Characteristics": "It is the fifth planet from our Sun. Jupiter had 95 Moons until now and it is 5.2U from the Sun, a day lasts 10 years and a year here is 12 Earth years. The surface temperature is -160 degrees Fahrenheit (-110 degrees Celsius).",
+        "Structure": "It has no solid surface and may have an Earth-sized core. Jupiter is the largest planet in the solar system with a radius of 43,440.7 miles (69,911 kilometers). The Great Red Spot is a storm that has raged for over 100 years and is about the size of Earth.",
         "Clothing": ""
     },
     {
         "Name": "Saturn",
-        "Characteristics": "",
-        "Structure": "",
+        "Characteristics": "Saturn is the sixth planet from the Sun and the second largest planet in our solar system. The farthest planet from Earth discovered by the unaided human eye, Saturn has been known since ancient times. Saturn is 9.5 AU from the Sun and takes 29 Earth years for Saturn to orbit the Sun. Saturn is the king of the moons with 146 moons in its orbit",
+        "Structure": "Its radius is 36,183.7 miles | 58,232 kilometers, adorned with a dazzling system of icy rings, it makes Saturn unique among the planets; Saturn is a massive ball made mostly of hydrogen and helium blanketed with clouds that appear as faint stripes, jet streams, and storms. Winds in the upper atmosphere reach 1,600 feet per second (500 meters per second) in the equatorial region and the pressure is so powerful it squeezes gas into a liquid.",
         "Clothing": ""
     },
     {
         "Name": "Uranus",
-        "Characteristics": "",
-        "Structure": "",
+        "Characteristics": "The Ice Giant, Uranus is about four times wider than Earth and the seventh planet. It is about 19.8 AU from the Sun with a radius of 15,759.2 miles | 25,362 kilometers. Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees - possibly the result of a collision with an Earth-sized object long ago",
+        "Structure": "The atmosphere is mostly hydrogen and helium, but also includes large amounts of water, ammonia and methane. Uranus' planetary atmosphere, with a minimum temperature of 49K (-224.2 degrees Celsius) makes it even colder than Neptune in some places. Wind speeds can reach up to 560 miles per hour (900 kilometers per hour) on Uranus. Winds are retrograde at the equator, blowing in the reverse direction of the planet's rotation.",
         "Clothing": ""
     },
     {
         "Name": "Neptune",
-        "Characteristics": "",
-        "Structure": "",
-        "Clothing": ""
-    },
-    {
-        "Name": "Pluto",
         "Characteristics": "",
         "Structure": "",
         "Clothing": ""
