@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import '../model/planet.dart';
@@ -24,6 +25,7 @@ class PlanetView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(name),
+        //elevation: 0,
         actions: [
           IconButton(
             icon: const Icon(Icons.exit_to_app),
@@ -112,14 +114,15 @@ class PlanetView extends StatelessWidget {
                       },
                     )),
                 Positioned(
-                    bottom: 0,
-                    left: 0,
-                    width: width > height ? width / 7 : width / 5,
-                    height: width < height ? width / 5 : width / 7,
-                    child: Image.asset(
-                      'assets/images/speaker.jpeg',
-                      fit: BoxFit.cover,
-                    )),
+                  bottom: 0,
+                  left: 0,
+                  width: width > height ? width / 7 : width / 5,
+                  height: width < height ? width / 5 : width / 7,
+                  child: ClipRRect(
+                    child: Image.asset('assets/images/speaker.jpeg'),
+                    borderRadius: BorderRadius.circular(100),
+                  ),
+                ),
                 Container(
                     width: width * 0.4,
                     height: height * 0.5,
@@ -129,7 +132,10 @@ class PlanetView extends StatelessWidget {
                       borderRadius: BorderRadius.circular(30),
                       color: const Color.fromARGB(169, 88, 165, 123),
                     ),
-                    child: SelectableText(planet.characteristics)),
+                    child: SelectableText(
+                      planet.characteristics,
+                      style: const TextStyle(fontSize: 24),
+                    )),
                 Positioned(
                   right: width * 0.01,
                   child: Container(
@@ -142,7 +148,9 @@ class PlanetView extends StatelessWidget {
                         color: const Color.fromARGB(169, 88, 165, 123),
                       ),
                       child: SelectableText(
-                          '${planet.structure}\n${planet.clothing}')),
+                        '${planet.structure}\n${planet.clothing}',
+                        style: TextStyle(fontSize: 24),
+                      )),
                 ),
               ],
             );
@@ -164,10 +172,11 @@ class PlanetView extends StatelessWidget {
       return Planet(
         name: planet['Name'],
         characteristics: planet['Characteristics'],
-        structure: planet['Structure'],
+        structure: planet['Characteristics'],
         clothing: planet['Clothing'],
       );
     }).toList();
+
     final Planet planet = planets.firstWhere((planet) => planet.name == name);
     return planet;
   }

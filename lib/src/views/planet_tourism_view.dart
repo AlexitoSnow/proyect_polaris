@@ -128,6 +128,8 @@ class PlanetTourismView extends StatelessWidget {
         activities: List<String>.from(place['activities']),
       );
     }).toList();
+    print("LUGARES");
+    print(places);
     final TourismPlace tourism =
         places.firstWhere((place) => place.name == name);
     return tourism;

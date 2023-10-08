@@ -38,7 +38,6 @@ class PlanetPosition extends StatelessWidget {
               height: size, // Alto del área interactiva
               decoration: BoxDecoration(
                 color: Colors.transparent,
-                borderRadius: BorderRadius.circular(100),
                 image: DecorationImage(
                   image: AssetImage(pathImage),
                   fit: BoxFit.fill,
