@@ -1,0 +1,56 @@
+[
+    {
+        "Name": "Sun",
+        "Characteristics": "It is in the center of the solar system, It has a temperature of 15,000,000°C",
+        "Structure": "It is 109 times wider than the Earth, It has a diameter of 1,392,000 km, It is a medium-sized star, there are much larger stars.",
+        "Clothing": ""
+    },
+    {
+        "Name": "Mercury",
+        "Characteristics": " It does not have a Moon, It is the closest to the sun but it is not the warmest planet, Its temperature ranges between –180 °C and +430 °C.",
+        "Structure": "It is a rocky planet, It is the smallest in the solar system, It has a solid surface that is covered in craters",
+        "Clothing": ""
+    },
+    {
+        "Name": "Venus",
+        "Characteristics": "It is the hottest planet in the solar system, It can reach temperatures of up to 453°C, It doesn't have a moon, Its atmosphere is too thick to the point that if we were to see the sun from the surface, only a spot of light is observed.",
+        "Structure": "Similar size to Earth, It is rocky, it has volcanoes, It rotates in the opposite direction to the Earth.",
+        "Clothing": ""
+    },
+    {
+        "Name": "Earth",
+        "Characteristics": "It is the only planet that has a Moon, Its atmosphere is composed of Nitrogen and Oxygen, which allows us to breathe, Small and rocky",
+        "Structure": "It has mountains, valleys, plains, etc., Water represents 70% of its surface, It has an area of 510 million km^2",
+        "Clothing": ""
+    },
+    {
+        "Name": "Mars",
+        "Characteristics": "It is the fourth planet from the Sun, It has two small moons: Phobos and Deimos, Also called the Earth's twin, its day lasts 24.6 hours, Its average temperature is -62°C",
+        "Structure": "It is a dusty, cold, desert world with a very thin atmosphere, It has a dense core composed of iron, nickel, and sulfur, Mars is home to the largest volcano in the solar system, Olympus Mons.",
+        "Clothing": "Suits with dust resistance, that have protection against radiation and thermal insulation. "
+    },
+    {
+        "Name": "Jupiter",
+        "Characteristics": "It is the fifth planet from our Sun. Jupiter had 95 Moons until now and it is 5.2U from the Sun, a day lasts 10 years and a year here is 12 Earth years. The surface temperature is -160 degrees Fahrenheit (-110 degrees Celsius).",
+        "Structure": "It has no solid surface and may have an Earth-sized core. Jupiter is the largest planet in the solar system with a radius of 43,440.7 miles (69,911 kilometers). The Great Red Spot is a storm that has raged for over 100 years and is about the size of Earth.",
+        "Clothing": ""
+    },
+    {
+        "Name": "Saturn",
+        "Characteristics": "Saturn is the sixth planet from the Sun and the second largest planet in our solar system. The farthest planet from Earth discovered by the unaided human eye, Saturn has been known since ancient times. Saturn is 9.5 AU from the Sun and takes 29 Earth years for Saturn to orbit the Sun. Saturn is the king of the moons with 146 moons in its orbit",
+        "Structure": "Its radius is 36,183.7 miles | 58,232 kilometers, adorned with a dazzling system of icy rings, it makes Saturn unique among the planets; Saturn is a massive ball made mostly of hydrogen and helium blanketed with clouds that appear as faint stripes, jet streams, and storms. Winds in the upper atmosphere reach 1,600 feet per second (500 meters per second) in the equatorial region and the pressure is so powerful it squeezes gas into a liquid.",
+        "Clothing": ""
+    },
+    {
+        "Name": "Uranus",
+        "Characteristics": "The Ice Giant, Uranus is about four times wider than Earth and the seventh planet. It is about 19.8 AU from the Sun with a radius of 15,759.2 miles | 25,362 kilometers. Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees - possibly the result of a collision with an Earth-sized object long ago",
+        "Structure": "The atmosphere is mostly hydrogen and helium, but also includes large amounts of water, ammonia and methane. Uranus' planetary atmosphere, with a minimum temperature of 49K (-224.2 degrees Celsius) makes it even colder than Neptune in some places. Wind speeds can reach up to 560 miles per hour (900 kilometers per hour) on Uranus. Winds are retrograde at the equator, blowing in the reverse direction of the planet's rotation.",
+        "Clothing": ""
+    },
+    {
+        "Name": "Neptune",
+        "Characteristics": "",
+        "Structure": "",
+        "Clothing": ""
+    }
+]
