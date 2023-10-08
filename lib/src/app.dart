@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:proyect_polaris/src/sample_feature/tierra_page.dart';
 
 import 'sample_feature/planet_view.dart';
+import 'sample_feature/inrto_page.dart';
 import 'settings/settings_controller.dart';
 import 'settings/settings_view.dart';
 
@@ -26,6 +28,7 @@ class MyApp extends StatelessWidget {
       builder: (BuildContext context, Widget? child) {
         return MaterialApp(
           restorationScopeId: 'app',
+          debugShowCheckedModeBanner: false,
 
           localizationsDelegates: const [
             AppLocalizations.delegate,
@@ -51,7 +54,6 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(),
           darkTheme: ThemeData.dark(),
           themeMode: settingsController.themeMode,
-
           // Define a function to handle named routes in order to support
           // Flutter web url navigation and deep linking.
           onGenerateRoute: (RouteSettings routeSettings) {
@@ -65,10 +67,12 @@ class MyApp extends StatelessWidget {
                     return const PlanetView(
                       name: 'Saturn',
                     );
+                  case Intro.routeName:
+                    return const Intro();
+                  case TierraApp.routeName:
+                    return const TierraApp();
                   default:
-                    return const PlanetView(
-                      name: 'Saturn',
-                    );
+                    return const Intro();
                 }
               },
             );
