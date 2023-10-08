@@ -71,7 +71,7 @@ class PlanetView extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      'Lugares!',
+                      "Let's explore!",
                       style: TextStyle(fontSize: 14),
                     ),
                     Icon(
@@ -99,7 +99,7 @@ class PlanetView extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      'Despeguemos!',
+                      "Let's take off!",
                       style: TextStyle(fontSize: 14),
                     ),
                     Icon(
@@ -135,31 +135,68 @@ class PlanetView extends StatelessWidget {
               speakerWidget(width, height),
               Container(
                   width: width * 0.4,
-                  height: height * 0.5,
-                  margin: const EdgeInsets.only(top: 20, left: 20),
+                  //height: height * 0.2,
+                  margin: const EdgeInsets.only(top: 70, left: 20),
                   padding: const EdgeInsets.all(20),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30),
                     color: colorPalette['Green'],
                   ),
-                  child: SelectableText(
-                    planet.characteristics,
-                    style: const TextStyle(fontSize: 15),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const SelectableText(
+                        'Hi, space turtle, did you know that...',
+                        style: TextStyle(fontSize: 15, color: Colors.black),
+                      ),
+                      const SelectableText(
+                        'Characteristics:',
+                        style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black),
+                      ),
+                      SelectableText(
+                        planet.characteristics,
+                        style:
+                            const TextStyle(fontSize: 16, color: Colors.black),
+                      ),
+                      const SelectableText(
+                        'Structure:',
+                        style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black),
+                      ),
+                      SelectableText(
+                        planet.structure,
+                        style:
+                            const TextStyle(fontSize: 16, color: Colors.black),
+                      ),
+                    ],
                   )),
               Positioned(
                 right: width * 0.01,
                 child: Container(
-                    width: width * 0.2,
-                    height: height * 0.5,
-                    margin: const EdgeInsets.only(top: 20),
+                    width: width * 0.4,
+                    // height: height * 0.4,
+                    margin: const EdgeInsets.only(top: 50),
                     padding: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
                       color: colorPalette['Green'],
                     ),
-                    child: SelectableText(
-                      '${planet.structure}\n${planet.clothing}',
-                      style: const TextStyle(fontSize: 15),
+                    child: Column(
+                      children: [
+                        SelectableText(
+                          'It is very important that you prepare for the trip...\n${planet.clothing}',
+                          style: const TextStyle(
+                              fontSize: 15, color: Colors.black),
+                        ),
+                        Image.asset('${pathImages}clothing.jpg')
+                      ],
                     )),
               ),
             ],

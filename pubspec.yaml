@@ -37,6 +37,13 @@ flutter:
     # Image Assets
     - assets/images/
     - assets/images/planets/mars/
+    - assets/images/planets/earth/
+    - assets/images/planets/jupiter/
+    - assets/images/planets/mercury/
+    - assets/images/planets/neptune/
+    - assets/images/planets/saturn/
+    - assets/images/planets/uranus/
+    - assets/images/planets/venus/
     - assets/images/planets/
     - assets/images/onlyplanets/
 
